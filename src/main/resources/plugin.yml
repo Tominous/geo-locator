@@ -1,0 +1,12 @@
+name: GeoIp
+main: de.kyleonaut.geopip.GeoIpPlugin
+version: 1.0.0
+api-version: 1.13
+author: kyleonaut
+commands:
+  geoip:
+    permission: geoip.use
+permissions:
+  geoip.use:
+    default: op
+    description: Permission to use /geoip
