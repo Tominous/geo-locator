@@ -32,7 +32,6 @@ public class GeoIpModule extends AbstractModule {
     @Override
     protected void configure() {
         bind(GeoIpPlugin.class).toInstance(plugin);
-        //bind(Retrofit.class).toProvider(RetrofitProvider.class);
         bind(IpApiRequests.class).toInstance(this.ipApiRequests);
     }
 }
