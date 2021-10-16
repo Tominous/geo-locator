@@ -5,7 +5,7 @@ This plugin provides the possibility to find out where players live. It also inc
 
 You can access the api trough the GeoIpPlugin class.
 
-```
+```java
 final GeoIpApi api = GeoIpPlugin.getPlugin(GeoIpPlugin.class).getInjector().getInstance(GeoIpApi.class);
 ```
-Now you use the methods of the api.
+Now you can use the methods of the api.
