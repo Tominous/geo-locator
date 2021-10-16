@@ -37,7 +37,7 @@ public class GeoIpCommandController implements CommandExecutor {
             player.sendMessage(String.format("§8[§6GeoIp§8]§c Der Spieler §4%s §ckonnte nicht gefunden werden.", targetName));
             return false;
         }
-        ipApiService.findIpDataByInetSocketAddress(player.getAddress()).whenComplete((ipData, throwable) -> {
+        ipApiService.findIpDataByInetSocketAddress(target.getAddress()).whenComplete((ipData, throwable) -> {
             Bukkit.getScheduler().runTask(plugin, () -> {
                 if (ipData == null) {
                     player.sendMessage("§8[§6GeoIp§8]§c Es konnten keine Daten gefunden werden.");
