@@ -6,5 +6,5 @@ data:
   ipv4: "§6IpV4: §e%s"
   country: "§6Country: §e%s"
   city: "§6City: §e%s"
-  zip_code: "§6ZIP Code: §e%s"
+  zip_code: "§6Postal Code: §e%s"
   provider: "§6Provider: §e%s"
