@@ -28,6 +28,7 @@ public class GeoIpPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
         Bukkit.getScheduler().runTaskLater(this, () -> {
             configureGuice();
             registerController();

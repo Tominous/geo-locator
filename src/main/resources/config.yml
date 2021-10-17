@@ -1,0 +1,10 @@
+syntax_error: §8[§6GeoIp§8]§c Please use §4/geoip <player>§c.
+player_not_found: §8[§6GeoIp§8]§c The player §4%s §ccould not be found.
+data_not_found: §8[§6GeoIp§8]§c No data could be found.
+data:
+  player: "§6Player: §e%s"
+  ipv4: "§6IpV4: §e%s"
+  country: "§6Country: §e%s"
+  city: "§6City: §e%s"
+  zip_code: "§6ZIP Code: §e%s"
+  provider: "§6Provider: §e%s"
